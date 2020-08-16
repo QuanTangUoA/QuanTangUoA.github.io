@@ -1,0 +1,286 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <!-- Bootstrap CSS -->
+        <link rel ="stylesheet" href="project.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="jquery-3.5.1.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="echarts.min.js"></script>
+        <script src="index.js"></script>
+        <title>GovHack2020</title>
+    </head>
+    <body>
+        <div class="container-fluid"></div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: rgba(82, 1, 1, 0.89) !important;">
+                    <a class="navbar-brand" href="index.html" style="color: white;">GovHack2020</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#" style="color: white;">Project <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="Contact_Us.html" style="color: white;">Solution <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="Contact_Us.html" style="color: white;">Contact Us <span class="sr-only">(current)</span></a>
+                    </div>
+                    </div>
+                </nav>
+        </div>
+
+        <div class="container" id="section02">
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-4"><img src="pictures/pic1.png" style="width: 100%; height: 240px"></div>
+                <div class="col-4"><img src="pictures/pic2.png" style="width: 100%; height: 240px"></div>
+                <div class="col-4"><img src="pictures/pic3.png" style="width: 100%; height: 240px"></div>
+            </div>
+        </div>
+
+        <div class="description_band">
+            <div class="container"><h2>Project Description:</h2></div>
+        </div>
+        <div class="container">
+            <p>Older people, accounting for a large proportion of Australian population, are more susceptible to getting sick with COVID-19, and cause higher fatality rate once getting infected compared to youngers. 
+                Therefore, providing older people with special protection and care will contribute to the infection control, overall social stability and further development.  
+                <br><br>
+                Utilizing the available open data and processing data virtualization, we aim to design the solution to mitigate infected information limitation specially faced by older people 
+                because they are unfamiliar with digital devise application, optimize medical resources and volunteer allocation, and prioritize the old people’s medical need.
+                </p>
+        </div>
+
+        <div class="description_band">
+            <div class="container"><h2>APP Function:</h2></div>
+        </div>
+        <div class="container">
+            <p>Generally, App will count the sum of infected people in real-time for selected state, record the infected people’s trajectory to avoid the potential contagion, accelerate the medical resources geolocation, 
+                direct the older people to the nearest available medical institution with the reported number of available beds. 
+                <br><br>
+                Moreover, treating older people as key users, App develops various functions to make it accessible and convenient for them. First of all, App simplifies the operating process combining with data virtualization, 
+                which is easy for old people to understand and operate. Second, App bridges the effective connection between old people and medical institutions, make a direct call or send the message with specific requests which 
+                can be easily selected in the prepared list to the medical institutions and be marked as “Urgent” to provide exceptional attention for older people. Third, users and medical institutions can get in touch with volunteers 
+                in timely manner considering the location and volunteering purpose which could be matched with corresponding professional expertise, in order to optimize volunteer allocation structure. Last but not least, users can change language and font size for their preference.
+                </p>
+        </div>
+        
+        <div class="description_band">
+            <div class="container"><h2>Data Analysis:</h2></div>
+        </div>
+        <div class="container">
+            <p>Integrating the open data of population aging distribution across main states in Australia,  there is no doubt that Australia is facing the aggravating trend of aging population, which is also the serious threat of fighting COVID-19. 
+                Focusing on the older people infected condition, we collected the COVID-19 case and COVID-19 death data and calculated the death rate on the nine divided parts of age levels, 
+                from which we realized that although the infected ratio of older people is relatively low, the death rate is high because of poor physical quality in the equal lacking vaccine condition.
+                <br><br>
+                Therefore, effectively settling down the older people’s medical needs will hopefully decrease the death case and further benefit the pandemic confinement and control. After comparing the available bed and relevant medical resources with infected case, 
+                we concluded that the current medical resource is scarce, only efficiently allocating the resources can older people get effective treatments.
+                <br><br>
+                To achieve this, we input the location data of medical institution and real-time available beds in users’ GPS position scope, screen the unavailable resource, and automate the process of the best medical institution selections, 
+                which will provide valuable help for older people to lock the destination.
+                <br><br>
+                Also, App classifies the areas into High Risk, Medium Risk and Low Risk based on analyzing tracking data of the suspected case and confirmed case. Moreover, considering older people and medical institutions may need volunteers for different purposes like general enquiry and professional medical support, 
+                App realizes the consistent match to consolidate the volunteer allocation structure based on analyzing and processing the data of demand and supply.
+                <br><br>
+                Data analysis lays a solid foundation for the whole solution process, during which we found that data can produce a marked effect for a larger extent with elaborate ideas and technical support.</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div id="main1" style="width: 100%; height:450px;"></div>
+            </div>
+            <div class="row">
+                <div id="main2" style="width: 100%; height:450px;"></div>
+            </div>
+            <div class="row">
+                <img src="pictures/pic4.png" class="center">
+            </div>
+        </div>
+
+        <footer class = "panel-footer">
+            <div class = "container">
+                <div class = "row">
+                    <section id = "address" class = "col-12">
+                        <span>Address:</span>
+                        14 Hobson's Place,&nbsp;Adelaide, SA 5000
+                        <hr class = "d-block d-sm-none">
+                    </section>
+                </div>
+                <div class = "text-center">&copy; Copyright Team 1122, 2020</div>
+            </div>
+        </footer>
+        <script type="text/javascript">
+            var myChart1 = echarts.init(document.getElementById('main1'));
+            var myChart2 = echarts.init(document.getElementById('main2'));
+            var colors = ['#5793f3', '#d14a61', '#675bba'];
+
+            var option2 = {
+                color: colors,
+
+                tooltip: {
+                    trigger: 'axis',
+                    axisPointer: {
+                        type: 'cross'
+                    }
+                },
+                grid: {
+                    right: '20%'
+                },
+                toolbox: {
+                    feature: {
+                        dataView: {show: true, readOnly: false},
+                        restore: {show: true},
+                        saveAsImage: {show: true}
+                    }
+                },
+                legend: {
+                    data: ['Covid-19 Case', 'Covid-19 Death', 'Death Rate']
+                },
+                xAxis: [
+                    {
+                        type: 'category',
+                        axisTick: {
+                            alignWithLabel: true
+                        },
+                        data: ['Under 10', '10-19', '20-29', '30-39', '40-49', '50-59', '60-69', '70-79', 'Over80']
+                    }
+                ],
+                yAxis: [
+                    {
+                        type: 'value',
+                        name: 'Covid-19 Case',
+                        min: 500,
+                        max: 4500,
+                        position: 'right',
+                        axisLine: {
+                            lineStyle: {
+                                color: colors[0]
+                            }
+                        },
+                        axisLabel: {
+                            formatter: '{value} '
+                        }
+                    },
+                    {
+                        type: 'value',
+                        name: 'Covid-19 Death',
+                        min: 0,
+                        max: 300,
+                        position: 'right',
+                        offset: 100,
+                        axisLine: {
+                            lineStyle: {
+                                color: colors[1]
+                            }
+                        },
+                        axisLabel: {
+                            formatter: '{value} '
+                        }
+                    },
+                    {
+                        type: 'value',
+                        name: 'Death Rate',
+                        min: 0,
+                        max: 25,
+                        position: 'left',
+                        axisLine: {
+                            lineStyle: {
+                                color: colors[2]
+                            }
+                        },
+                        axisLabel: {
+                            formatter: '{value} %'
+                        }
+                    }
+                ],
+                series: [
+                    {
+                        name: 'Covid-19 Case',
+                        type: 'bar',
+                        data:  [810,1498,4399,3329,2521,2423,1884,1201,1199]
+                    },
+                    {
+                        name: 'Covid-19 Death',
+                        type: 'bar',
+                        yAxisIndex: 1,
+                        data: [0,0,0,2,2,9,21,76,253]
+                    },
+                    {
+                        name: 'Death Rate',
+                        type: 'line',
+                        yAxisIndex: 2,
+                        data: [0, 0, 0, 0.06, 0.08, 0.37, 1.11, 6.32,21.10]
+                    }
+                ]
+            };
+
+            setTimeout(function () {
+            var option1 = {
+                legend: {},
+                tooltip: {
+                    trigger: 'axis',
+                    showContent: false
+                },
+                dataset: {
+                    source: [
+                        ['covid', '15-Mar', '16-Apr', '15-May', '18-Jun', '15-Jul'],
+                        ['NSW', 1405, 2926, 3082, 3137, 3425],
+                        ['VIC', 520, 1301, 1580, 1817, 6289],
+                        ['QLD', 493, 1001, 1057, 1066, 1072],
+                        ['WA', 231,541,51,604,651],
+                        ['ACT', 62 ,169,107,108,113],
+                        ['TAS', 66, 169,228,228,229],
+                        ['SA', 52,433,439,440,446]
+                ]
+                },
+                xAxis: {type: 'category'},
+                yAxis: {gridIndex: 0},
+                grid: {top: '55%'},
+                series: [
+                    {type: 'line', smooth: true, seriesLayoutBy: 'row'},
+                    {type: 'line', smooth: true, seriesLayoutBy: 'row'},
+                    {type: 'line', smooth: true, seriesLayoutBy: 'row'},
+                    {type: 'line', smooth: true, seriesLayoutBy: 'row'},
+                    {
+                        type: 'pie',
+                        id: 'pie',
+                        radius: '30%',
+                        center: ['50%', '25%'],
+                        label: {
+                            formatter: '{b}: {@2012} ({d}%)'
+                        },
+                        encode: {
+                            itemName: 'covid',
+                            value: '2012',
+                            tooltip: '2012'
+                        }
+                    }
+                ]
+            };
+
+            myChart1.on('updateAxisPointer', function (event) {
+                var xAxisInfo = event.axesInfo[0];
+                if (xAxisInfo) {
+                    var dimension = xAxisInfo.value + 1;
+                    myChart1.setOption({
+                        series: {
+                            id: 'pie',
+                            label: {
+                                formatter: '{b}: {@[' + dimension + ']} ({d}%)'
+                            },
+                            encode: {
+                                value: dimension,
+                                tooltip: dimension
+                            }
+                        }
+                    });
+                }
+            });
+
+            myChart1.setOption(option1);
+
+            });
+            //myChart1.setOption(option1);
+            myChart2.setOption(option2);
+        </script>
+    </body>
+</html>
