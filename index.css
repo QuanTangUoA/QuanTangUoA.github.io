@@ -61,3 +61,13 @@ body{
     font-size: 20px;
     display: inline-block;
 }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 60px;
+}
