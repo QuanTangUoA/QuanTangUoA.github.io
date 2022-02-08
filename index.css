@@ -14,7 +14,7 @@ body{
     display: flex;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
-    width: 800px;
+    width: 700px;
     height: 500px;
 }
 #nav_bar{
@@ -48,8 +48,8 @@ body{
     margin-left: 10px;
 }
 #intro img{
-    width: 300px;
-    height: 280px;
+    width: 260px;
+    height: 240px;
     border-radius: 50%;
     background-color: gray;
     margin-right: 40px;
@@ -65,9 +65,17 @@ body{
 footer{
     display: flex;
     justify-content: space-between;
+    margin: 40px;
 }
 footer div{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    margin: 60px;
+}
+
+.phone{
+    margin-left: 10px;
+}
+
+.facebook{
+    margin-right: 10px;
 }
