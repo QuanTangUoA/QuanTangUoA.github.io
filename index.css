@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background-color: rgba(255, 255, 255, 0.88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 500px;
+}
+#nav_bar{
+    margin: 30px 50px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.left span{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.circle{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-color: rgb(47, 255, 71);
+    border-radius: 50%;
+    margin: 0 10px;
+}
