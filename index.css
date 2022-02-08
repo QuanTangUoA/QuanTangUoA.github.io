@@ -11,9 +11,11 @@ body{
 }
 
 #intro{
-    font-size: 24px;
+    display: flex;
+    align-items: center;
     font-family: 'Courier New', Courier, monospace;
-    width: 500px;
+    width: 800px;
+    height: 500px;
 }
 #nav_bar{
     margin: 30px 50px;
@@ -25,15 +27,37 @@ body{
 }
 
 .left span{
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
 }
 
 .circle{
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
     display: inline-block;
     background-color: rgb(47, 255, 71);
     border-radius: 50%;
     margin: 0 10px;
+}
+
+.left .occupation{
+    font-size: 20px;
+    color: gray;
+    position: relative;
+    top: 6px;
+    margin-left: 10px;
+}
+#intro img{
+    width: 300px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-right: 40px;
+}
+
+.greeting-msg{
+    width: 400px;
+    height: 250px;
+    font-size: 20px;
+    display: inline-block;
 }
